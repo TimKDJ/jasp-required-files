@@ -49,6 +49,7 @@ coxph.getdata	coxph
 coxph.object	coxph.object
 coxph.penalty	coxph
 coxph.wtest	coxph.wtest
+coxsurv.fit	coxsurv.fit
 cracks	reliability
 diabetic	diabetic
 dsurvreg	dsurvreg
@@ -61,6 +62,7 @@ frailty	frailty
 frailty.gamma	frailty
 frailty.gaussian	frailty
 frailty.t	frailty
+gbsg	gbsg
 genfan	reliability
 head.Surv	Survmethods
 heart	heart
@@ -96,6 +98,9 @@ model.frame.coxph	model.frame.coxph
 model.frame.survreg	survreg
 model.matrix.coxph	model.matrix.coxph
 myeloid	myeloid
+nafld1	nafld
+nafld2	nafld
+nafld3	nafld
 names.Surv	Survmethods
 names<-.Surv	Survmethods
 neardate	neardate
@@ -155,7 +160,10 @@ retinopathy	retinopathy
 rev.Surv	Survmethods
 rhDNase	rhDNase
 ridge	ridge
+rotterdam	rotterdam
+royston	royston
 rsurvreg	dsurvreg
+rttright	rttright
 solder	solder
 sort.Surv	xtfrm.Surv
 stanford2	stanford2
@@ -171,6 +179,9 @@ summary.survexp	summary.survexp
 summary.survfit	summary.survfit
 summary.survreg	survreg.object
 Surv	Surv
+Surv2	Surv2
+Surv2data	Surv2data
+survcheck	survcheck
 survConcordance	survConcordance-deprecated
 survConcordance.fit	survConcordance-deprecated
 survdiff	survdiff
@@ -186,6 +197,7 @@ survfit.coxph	survfit.coxph
 survfit.formula	survfit.formula
 survfit.matrix	survfit.matrix
 survfit.object	survfit.object
+survfit0	survfit0
 survfitCI	survival-internal
 survfitcoxph.fit	survfitcoxph.fit
 survfitKM	survival-internal

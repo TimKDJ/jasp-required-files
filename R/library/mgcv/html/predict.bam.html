@@ -81,7 +81,8 @@ outside <code>R</code> (see example code, below). </p>
 <td>
 <p>if <code>type=="terms"</code> or <code>type="iterms"</code> then terms (smooth or parametric) named in this array
 will not be returned. Otherwise any smooth terms named in this array will be set to zero. 
-If <code>NULL</code> then no terms are excluded.</p>
+If <code>NULL</code> then no terms are excluded. To avoid supplying covariate values for excluded terms, set <code>newdata.guaranteed=TRUE</code>,
+but note that this skips all checks of <code>newdata</code>. </p>
 </td></tr>
 <tr valign="top"><td><code>block.size</code></td>
 <td>
@@ -107,7 +108,7 @@ determined from <code>object$na.action</code>.</p>
 </td></tr>
 <tr valign="top"><td><code>cluster</code></td>
 <td>
-<p><code>predict.bam</code> can compute in parallel using <a href="../../parallel/html/parLapply.html">parLapply</a>
+<p><code>predict.bam</code> can compute in parallel using <a href="../../parallel/html/clusterApply.html">parLapply</a>
 from the <code>parallel</code> package, if it is supplied with a cluster on which to do this (a cluster here can be some cores of a 
 single machine). See details and example code for <code><a href="bam.html">bam</a></code>. 
 </p>
@@ -206,5 +207,5 @@ and Hall/CRC Press.
 
 </pre>
 
-<hr /><div style="text-align: center;">[Package <em>mgcv</em> version 1.8-28 <a href="00Index.html">Index</a>]</div>
+<hr /><div style="text-align: center;">[Package <em>mgcv</em> version 1.8-33 <a href="00Index.html">Index</a>]</div>
 </body></html>
