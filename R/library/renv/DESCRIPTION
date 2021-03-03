@@ -1,7 +1,7 @@
 Package: renv
 Type: Package
 Title: Project Environments
-Version: 0.13.0-2
+Version: 0.13.0-9
 Authors@R: c(
     person("Kevin", "Ushey", role = c("aut", "cre"), email = "kevin@rstudio.com"),
     person("RStudio", role = c("cph"))
@@ -25,16 +25,16 @@ VignetteBuilder: knitr
 RemoteType: github
 RemoteHost: api.github.com
 RemoteRepo: renv
-RemoteUsername: vandenman
+RemoteUsername: rstudio
 RemoteRef: HEAD
-RemoteSha: 1fc1e2968b610c865d7dd541f2197b09441ffa29
+RemoteSha: cb15fc3dff91b0e8c12465d02db49816ec70b6b4
 GithubRepo: renv
-GithubUsername: vandenman
+GithubUsername: rstudio
 GithubRef: HEAD
-GithubSHA1: 1fc1e2968b610c865d7dd541f2197b09441ffa29
+GithubSHA1: cb15fc3dff91b0e8c12465d02db49816ec70b6b4
 NeedsCompilation: no
-Packaged: 2021-03-01 20:46:05 UTC; Joris
+Packaged: 2021-03-03 17:40:23 UTC; Joris
 Author: Kevin Ushey [aut, cre],
   RStudio [cph]
 Maintainer: Kevin Ushey <kevin@rstudio.com>
-Built: R 4.0.4; ; 2021-03-01 20:46:07 UTC; windows
+Built: R 4.0.4; ; 2021-03-03 17:40:29 UTC; windows
