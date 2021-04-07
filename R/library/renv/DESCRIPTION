@@ -1,7 +1,7 @@
 Package: renv
 Type: Package
 Title: Project Environments
-Version: 0.13.0-17
+Version: 0.13.2
 Authors@R: c(
     person("Kevin", "Ushey", role = c("aut", "cre"), email = "kevin@rstudio.com"),
     person("RStudio", role = c("cph"))
@@ -18,23 +18,13 @@ Suggests: R6, BiocManager, cli, covr, devtools, knitr, packrat,
         remotes, reticulate, rmarkdown, rstudioapi, testthat, uuid,
         yaml
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 7.1.1
-Roxygen: list(markdown = TRUE)
 VignetteBuilder: knitr
-RemoteType: github
-RemoteHost: api.github.com
-RemoteRepo: renv
-RemoteUsername: rstudio
-RemoteRef: HEAD
-RemoteSha: b9012e4dcfbd0c83462b02cb725f72d8115a7291
-GithubRepo: renv
-GithubUsername: rstudio
-GithubRef: HEAD
-GithubSHA1: b9012e4dcfbd0c83462b02cb725f72d8115a7291
 NeedsCompilation: no
-Packaged: 2021-03-10 15:07:58 UTC; Joris
+Packaged: 2021-03-30 05:56:42 UTC; kevin
 Author: Kevin Ushey [aut, cre],
   RStudio [cph]
 Maintainer: Kevin Ushey <kevin@rstudio.com>
-Built: R 4.0.4; ; 2021-03-10 15:08:03 UTC; windows
+Repository: CRAN
+Date/Publication: 2021-03-30 09:50:06 UTC
+Built: R 4.0.4; ; 2021-03-31 16:39:23 UTC; windows
