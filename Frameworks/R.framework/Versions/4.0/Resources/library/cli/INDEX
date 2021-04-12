@@ -17,9 +17,11 @@ ansi_trimws             Remove leading and/or trailing whitespace from
                         an ANSI string
 builtin_theme           The built-in CLI theme
 cat_line                'cat()' helpers
+cli                     Compose multiple cli functions
 cli_alert               CLI alerts
 cli_blockquote          CLI block quote
 cli_code                A block of code
+cli_debug_doc           Debug cli internals
 cli_div                 Generic CLI container
 cli_dl                  Definition list
 cli_end                 Close a CLI container
@@ -29,6 +31,7 @@ cli_format_method       Create a format method for an object using cli
 cli_h1                  CLI headings
 cli_li                  CLI list item(s)
 cli_list_themes         List the currently active themes
+cli_memo                List of items
 cli_ol                  Ordered CLI list
 cli_output_connection   The connection option that cli would use
 cli_par                 CLI paragraph
@@ -65,6 +68,10 @@ pluralization           CLI pluralization
 pluralize               String templating with pluralization
 rule                    Make a rule with one or two text labels
 simple_theme            A simple CLI theme
+spark_bar               Draw a sparkline bar graph with unicode block
+                        characters
+spark_line              Draw a sparkline line graph with Braille
+                        characters.
 start_app               Start, stop, query the default cli application
 style_hyperlink         Terminal Hyperlinks
 symbol                  Various handy symbols to use in a command line
