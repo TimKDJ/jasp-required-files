@@ -9,4 +9,4 @@ License: Part of R 4.0.5
 Imports: utils, grDevices, graphics
 Suggests: MASS, Matrix, SuppDists, methods, stats4
 NeedsCompilation: yes
-Built: R 4.0.5; x86_64-apple-darwin17.0; 2021-04-01 01:47:57 UTC; unix
+Built: R 4.0.5; x86_64-apple-darwin17.0; 2021-04-01 02:34:43 UTC; unix
